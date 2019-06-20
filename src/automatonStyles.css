@@ -1,0 +1,56 @@
+body { font-family: "Times New Roman", Georgia, Serif; font-size: 24px; font-weight: bold; }
+
+#welcome { font-family: "Times New Roman", Georgia, Serif; font-size: 1em; font-weight: bold; }
+
+input, select, button {
+  font-family:"Times New Roman", Georgia, Serif;
+  font-size: 1em;
+  margin: 3px;
+}
+.automaton {
+  display: flex;
+  flex-direction: column;
+}
+.configuration {
+  border: 1px solid black;
+  margin-bottom: 0.5em;
+}
+.ground {
+  border: 1px solid black;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+}
+.generationControls {
+  margin-top: 1em;
+}
+.generation {
+  border-left: 1px solid black; border-top: 1px solid black;
+  }
+#colour-choice {
+  width: 180px; /* 9 x (18 + 1 + 1) */
+  height: 60px; /* 3 x (18 + 1 + 1) */
+  border: 3px solid black;
+}
+.heading {
+  margin-top: 6px;
+}
+.state-cell {
+  width: 0.75em;
+  height: 0.75em;
+  border: 1px solid black;
+  float: left;
+}
+.cell { width: 11px; height: 11px; float: left; border-right: 1px solid black; border-bottom: 1px solid black; }
+.halfcell { width: 5px; height: 11px; float: left; border-right: 1px solid black; border-bottom: 1px solid black; }
+
+.stimulus-cell {float: left;}
+.result-cell { margin: 0 auto; }
+
+.selected {border: 1px solid #f00}
+.stimulus-row, .result-row { height: 1em; flex-direction: row;}
+.rule {float: left; padding: 4px; border: 1px solid black; }
+.stimulus-cell,.result-cell{ width: 1em; height: 1em; border: 1px solid black; }
+
+.dragging {background-color: tomato; }
+
